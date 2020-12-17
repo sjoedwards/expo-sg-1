@@ -1,3 +1,7 @@
 {
-  "extends": "@react-native-community"
+  "root": true,
+  "extends": [
+    "@react-native-community/eslint-config",
+    "eslint-config-prettier"
+  ]
 }
