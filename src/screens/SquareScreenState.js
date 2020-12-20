@@ -12,7 +12,6 @@ const SquareScreenState = () => {
   const setColor = (color, change) => {
     switch (`${color}`.toLowerCase()) {
       case "red":
-        console.log(color, change);
         red + change > 255 || red + change < 0 ? null : setRed(red + change);
         return;
       case "green":
