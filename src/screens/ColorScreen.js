@@ -18,7 +18,7 @@ const ColorScreen = () => {
       />
       <FlatList
         data={colors}
-        keyExtractor={({ item }) => item}
+        keyExtractor={(item) => item}
         renderItem={({ item }) => (
           <View style={{ ...style, backgroundColor: item }} />
         )}
