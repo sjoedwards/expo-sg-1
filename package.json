@@ -27,6 +27,7 @@
     "@babel/core": "~7.9.0",
     "@react-native-community/eslint-config": "^2.0.0",
     "eslint": "^7.15.0",
+    "eslint-plugin-import": "^2.22.1",
     "prettier": "^2.2.1"
   },
   "private": true
